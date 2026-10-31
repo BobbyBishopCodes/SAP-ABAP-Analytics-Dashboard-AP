@@ -1,0 +1,19 @@
+@EndUserText.label : 'Accounts Payable Invoices'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table zrb_ap_invoice {
+  key client       : abap.clnt not null;
+  key invoice_id   : abap.char(10) not null;
+  vendor_id        : abap.char(10) not null;
+  vendor_name      : abap.char(60);
+  invoice_number   : abap.char(20) not null;
+  invoice_date     : abap.dats;
+  due_date         : abap.dats;
+  @Semantics.amount.currencyCode : 'zrb_ap_invoice.currency_code'
+  gross_amount     : abap.curr(15,2);
+  currency_code    : abap.cuky;
+  status           : abap.char(1);
+  payment_date     : abap.dats;
+}

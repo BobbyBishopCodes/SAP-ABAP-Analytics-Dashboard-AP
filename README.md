@@ -1,4 +1,5 @@
 # SAP ABAP | Accounts Payable Analytics
+
 **Created by Robert Bishop an SAP certified accounting & finance student @ ETSU**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/712b5b5f-4c7c-4703-b7a1-427171df6150" />
 
@@ -16,7 +17,7 @@ The application will use simulated financial data to demonstrate SAP development
 
 ## Tech Stack
 
-- **SAP ABAP Cloud** — Backend development and accounting automation
+- **SAP ABAP Cloud** — Backend development and accounting automation - For this project, I used the SAP BTP Trial Account, it's a strenous process to setup.
 - **SAP HANA** — Database storage and management
 - **ABAP Development Tools (Eclipse)** — Development environment
 - **SAP Core Data Services (CDS)** — Data modeling and analytics (planned)
