@@ -1,5 +1,6 @@
 # SAP ABAP | Accounts Payable Analytics
 **Created by Robert Bishop an SAP certified accounting & finance student @ ETSU**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/712b5b5f-4c7c-4703-b7a1-427171df6150" />
 
 An SAP ABAP development project focused on building an Accounts Payable analytics application to improve financial reporting, invoice monitoring, and payment management.
 
