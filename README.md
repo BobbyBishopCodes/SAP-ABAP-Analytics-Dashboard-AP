@@ -14,13 +14,14 @@ The application will use simulated financial data to demonstrate SAP development
 - **Cash Flow Forecasting:** Analyze upcoming payment obligations.
 - **Analytics Dashboard:** Visualize financial KPIs and invoice activity using SAP Fiori.
 
-## Technologies
+## Tech Stack
 
-- SAP ABAP Cloud
-- ABAP Development Tools (Eclipse)
-- SAP Core Data Services (CDS)
-- SAP Fiori / RAP
-- abapGit & GitHub
+- **SAP ABAP Cloud** — Backend development and accounting automation
+- **SAP HANA** — Database storage and management
+- **ABAP Development Tools (Eclipse)** — Development environment
+- **SAP Core Data Services (CDS)** — Data modeling and analytics (planned)
+- **SAP RAP / Fiori Elements** — RESTful services and analytics dashboard (planned)
+- **abapGit & GitHub** — Version control and source code management
 
 ## Development Status
 
