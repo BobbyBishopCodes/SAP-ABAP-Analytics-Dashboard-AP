@@ -5,6 +5,14 @@
 
 An SAP ABAP development project focused on building an Accounts Payable analytics application to improve financial reporting, invoice monitoring, and payment management.
 
+Here is a look a the Accounts Payable Analytics Dashboard..
+<img width="1884" height="1035" alt="image" src="https://github.com/user-attachments/assets/cf7c19f7-2563-4dc2-bfc1-95b1abc884fd" />
+
+Here is a look at the Invoices section of the AP Dashboard..
+<img width="1856" height="529" alt="image" src="https://github.com/user-attachments/assets/3c90c5ec-e37f-416e-9997-92a19ba0c73a" />
+
+
+
 The application will use simulated financial data to demonstrate SAP development and accounting automation techniques.
 
 ## Planned Features
