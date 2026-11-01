@@ -23,9 +23,8 @@ The application will use simulated financial data to demonstrate SAP development
 
 ## Planned
 
-- Connect the dashboard to invoice data from SAP through an OData service.
-- Build and publish a Fiori application backed by the SAP service.
-- Add invoice editing and payment actions.
+- **Azure Backend:** Explore Azure services for processing invoice data and supporting the dashboard.
+- **LLM Integration:** Add yes/no invoice review flags, such as whether an invoice may be a duplicate or needs follow-up, with a person making the final decision.
 
 ## Tech Stack
 
@@ -48,5 +47,3 @@ Clone the repository, run `python -m http.server 8000` from its root folder, and
 **In Development**
 
 Currently establishing the database architecture and foundational ABAP components.
-
-Future enhancements may include Microsoft Azure integration and AI-assisted invoice analysis.
