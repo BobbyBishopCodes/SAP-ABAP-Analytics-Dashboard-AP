@@ -1,0 +1,4 @@
+@EndUserText.label: 'Accounts Payable Invoice Service'
+define service ZRB_UI_AP_INVOICE {
+  expose ZRB_C_AP_INVOICE as Invoices;
+}

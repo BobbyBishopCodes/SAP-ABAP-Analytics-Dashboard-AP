@@ -1,0 +1,18 @@
+@EndUserText.label: 'Accounts Payable Invoices'
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@Metadata.allowExtensions: true
+define view entity ZRB_C_AP_INVOICE
+  as select from zrb_ap_invoice
+{
+  key invoice_id as InvoiceId,
+      vendor_id as VendorId,
+      vendor_name as VendorName,
+      invoice_number as InvoiceNumber,
+      invoice_date as InvoiceDate,
+      due_date as DueDate,
+      @Semantics.amount.currencyCode: 'CurrencyCode'
+      gross_amount as GrossAmount,
+      currency_code as CurrencyCode,
+      status as Status,
+      payment_date as PaymentDate
+}

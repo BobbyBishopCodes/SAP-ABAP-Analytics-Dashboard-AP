@@ -50,5 +50,10 @@ CLASS zcl_rb_ap_seed IMPLEMENTATION.
     ENDLOOP.
 
     out->write( |Inserted { inserted } mock invoices; existing IDs were kept.| ).
+    SELECT * FROM zrb_ap_invoice
+      WHERE invoice_id LIKE 'MOCK%'
+      INTO TABLE @DATA(invoices).
+    SORT invoices BY invoice_id.
+    out->write( data = invoices name = 'Current mock invoices' ).
   ENDMETHOD.
 ENDCLASS.

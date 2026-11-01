@@ -22,7 +22,10 @@ The application will use simulated financial data to demonstrate SAP development
 - **ABAP Development Tools (Eclipse)** — Development environment
 - **SAP Core Data Services (CDS)** — Data modeling and analytics (planned)
 - **SAP RAP / Fiori Elements** — RESTful services and analytics dashboard (planned)
+- **SAPUI5 (Horizon theme)** — Local Accounts Payable dashboard using mock invoice data
 - **abapGit & GitHub** — Version control and source code management
+
+To help readers visualize the SAP Fiori concept behind this project, I built a local dashboard with SAPUI5. It demonstrates how the invoice analytics could be presented in an Accounts Payable application.
 
 ## Development Status
 

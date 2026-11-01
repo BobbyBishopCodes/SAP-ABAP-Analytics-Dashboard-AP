@@ -1,0 +1,10 @@
+[
+  {"InvoiceId":"MOCK0001","VendorId":"VEND001","VendorName":"Northstar Supply","InvoiceNumber":"NS-1001","InvoiceDateOffset":-65,"DueDateOffset":-35,"GrossAmount":1250,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0002","VendorId":"VEND002","VendorName":"Blue Ridge Parts","InvoiceNumber":"BR-2040","InvoiceDateOffset":-50,"DueDateOffset":-20,"GrossAmount":420.50,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0003","VendorId":"VEND003","VendorName":"Pine Logistics","InvoiceNumber":"PL-3008","InvoiceDateOffset":-28,"DueDateOffset":2,"GrossAmount":875,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0004","VendorId":"VEND001","VendorName":"Northstar Supply","InvoiceNumber":"NS-1002","InvoiceDateOffset":-95,"DueDateOffset":-65,"GrossAmount":3100,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0005","VendorId":"VEND004","VendorName":"Summit Services","InvoiceNumber":"SS-77","InvoiceDateOffset":-110,"DueDateOffset":-80,"GrossAmount":640,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0006","VendorId":"VEND002","VendorName":"Blue Ridge Parts","InvoiceNumber":"BR-2039","InvoiceDateOffset":-70,"DueDateOffset":-40,"GrossAmount":220,"CurrencyCode":"USD","Status":"P","PaymentDateOffset":-10},
+  {"InvoiceId":"MOCK0007","VendorId":"VEND003","VendorName":"Pine Logistics","InvoiceNumber":"PL-3010","InvoiceDateOffset":-12,"DueDateOffset":18,"GrossAmount":500,"CurrencyCode":"USD","Status":"O"},
+  {"InvoiceId":"MOCK0008","VendorId":"VEND003","VendorName":"Pine Logistics","InvoiceNumber":"PL-3010","InvoiceDateOffset":-12,"DueDateOffset":18,"GrossAmount":500,"CurrencyCode":"USD","Status":"O"}
+]
