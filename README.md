@@ -13,13 +13,19 @@ The Invoices section shows the underlying vendor invoices, due dates, amounts, a
 
 The application will use simulated financial data to demonstrate SAP development and accounting automation techniques.
 
-## Planned Features
+## Features
 
-- **Invoice Management:** Store and manage vendor invoices using custom SAP database tables.
-- **AP Aging Analysis:** Categorize outstanding invoices by overdue periods.
-- **Duplicate Detection:** Identify potentially duplicate vendor invoices.
-- **Cash Flow Forecasting:** Analyze upcoming payment obligations.
-- **Analytics Dashboard:** Visualize financial KPIs and invoice activity using SAP Fiori.
+- **Invoice Data:** Store simulated vendor invoices in a custom SAP table and add sample records with an ABAP seed class.
+- **AP Aging Analysis:** Group open USD invoices by how long they have been overdue.
+- **Duplicate Detection:** Flag invoices with matching vendor, invoice number, date, amount, and currency.
+- **Payment Outlook:** Summarize open invoices by upcoming due-date range.
+- **Dashboard Demo:** Explore invoice KPIs and details in a local SAPUI5 dashboard using mock data.
+
+## Planned
+
+- Connect the dashboard to invoice data from SAP through an OData service.
+- Build and publish a Fiori application backed by the SAP service.
+- Add invoice editing and payment actions.
 
 ## Tech Stack
 
