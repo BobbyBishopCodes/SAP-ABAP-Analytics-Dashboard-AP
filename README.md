@@ -5,13 +5,11 @@
 
 An SAP ABAP development project focused on building an Accounts Payable analytics application to improve financial reporting, invoice monitoring, and payment management.
 
-Here is a look a the Accounts Payable Analytics Dashboard..
+The local SAPUI5 dashboard summarizes open invoices, overdue balances, aging, upcoming payments, and potential duplicates using mock data.
 <img width="1884" height="1035" alt="image" src="https://github.com/user-attachments/assets/cf7c19f7-2563-4dc2-bfc1-95b1abc884fd" />
 
-Here is a look at the Invoices section of the AP Dashboard..
+The Invoices section shows the underlying vendor invoices, due dates, amounts, and payment statuses behind those summaries.
 <img width="1856" height="529" alt="image" src="https://github.com/user-attachments/assets/3c90c5ec-e37f-416e-9997-92a19ba0c73a" />
-
-
 
 The application will use simulated financial data to demonstrate SAP development and accounting automation techniques.
 
@@ -34,6 +32,10 @@ The application will use simulated financial data to demonstrate SAP development
 - **abapGit & GitHub** — Version control and source code management
 
 To help readers visualize the SAP Fiori concept behind this project, I built a local dashboard with SAPUI5. It demonstrates how the invoice analytics could be presented in an Accounts Payable application.
+
+## Replicate the Demo
+
+Clone the repository, run `python -m http.server 8000` from its root folder, and open `http://localhost:8000/dashboard/`. To run the ABAP portion, use your own SAP BTP ABAP environment to create the table from `sap/`, activate the seed and analytics classes from `src/`, then run those classes in that order. I made my SAP BTP account from here, https://www.sap.com/products/technology-platform/trial.html.
 
 ## Development Status
 
