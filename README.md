@@ -41,9 +41,3 @@ To help readers visualize the SAP Fiori concept behind this project, I built a l
 ## Replicate the Demo
 
 Clone the repository, run `python -m http.server 8000` from its root folder, and open `http://localhost:8000/dashboard/`. To run the ABAP portion, use your own SAP BTP ABAP environment to create the table from `sap/`, activate the seed and analytics classes from `src/`, then run those classes in that order. I made my SAP BTP account from here, https://www.sap.com/products/technology-platform/trial.html.
-
-## Development Status
-
-**In Development**
-
-Currently establishing the database architecture and foundational ABAP components.
